@@ -1,12 +1,16 @@
+/* File: ./css/login.css | Purpose: styles */
+/* Full-height page */
 body,
 html {
   height: 100%;
 }
 
-body{
+/* Background image */
+body {
   background-image: url(../images/BG1.jpg);
 }
 
+/* Hero text */
 .hero-text {
   text-align: center;
   position: absolute;
@@ -20,6 +24,7 @@ body{
   font-size: 103px;
 }
 
+/* Secondary hero text */
 .hero-text2 {
   text-align: center;
   position: absolute;
@@ -31,8 +36,10 @@ body{
   font-size: 32px;
 }
 
+/* Font import */
 @import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
 
+/* CTA buttons */
 .button {
   border-radius: 4px;
   background-color: #f4511e;
@@ -76,8 +83,7 @@ body{
   right: 0;
 }
 
-
-
+/* Box sizing */
 * {
   box-sizing: border-box;
 }
@@ -98,6 +104,7 @@ input[type="password"]:focus {
   outline: none;
 }
 
+/* Generic form button */
 button {
   background-color: #04aa6d;
   color: white;
@@ -128,6 +135,7 @@ button:hover {
   padding: 16px;
 }
 
+/* Modal backdrop */
 .modal {
   display: none;
   position: fixed;
@@ -140,6 +148,7 @@ button:hover {
   padding-top: 50px;
 }
 
+/* Modal content panel */
 .modal-content {
   background-color: #fefefe;
   margin: 5% auto 15% auto;
@@ -173,4 +182,3 @@ hr {
   clear: both;
   display: table;
 }
-

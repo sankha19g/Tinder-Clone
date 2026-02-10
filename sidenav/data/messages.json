@@ -1,0 +1,100 @@
+[
+  {
+    "id": "alexandra",
+    "name": "Alexandra Daddario",
+    "avatar": "cards/Alexandra-Daddario-768x800.jpg",
+    "preview": "Hey! Want to grab coffee?",
+    "time": "2m",
+    "unread": 1,
+    "messages": [
+      { "from": "them", "text": "Hey! Want to grab coffee?" },
+      { "from": "me", "text": "Sure, when are you free?" },
+      { "from": "them", "text": "Tonight after 7 works for me." }
+    ]
+  },
+  {
+    "id": "emma",
+    "name": "Emma Watson",
+    "avatar": "cards/Emma-Watson-768x910.jpg",
+    "preview": "That playlist you sent is fire.",
+    "time": "12m",
+    "unread": 0,
+    "messages": [
+      { "from": "them", "text": "That playlist you sent is fire." },
+      { "from": "me", "text": "Glad you liked it!" }
+    ]
+  },
+  {
+    "id": "lily",
+    "name": "Lily Collins",
+    "avatar": "cards/Lily-Collins-768x868.jpg",
+    "preview": "Are you free this weekend?",
+    "time": "35m",
+    "unread": 2,
+    "messages": [
+      { "from": "them", "text": "Are you free this weekend?" },
+      { "from": "me", "text": "Saturday afternoon works." },
+      { "from": "them", "text": "Perfect, let's plan it." }
+    ]
+  },
+  {
+    "id": "margot",
+    "name": "Margot Robbie",
+    "avatar": "cards/Margot-Robbie-768x873.jpg",
+    "preview": "Haha that was hilarious.",
+    "time": "1h",
+    "unread": 0,
+    "messages": [
+      { "from": "me", "text": "Did you see that video?" },
+      { "from": "them", "text": "Haha that was hilarious." }
+    ]
+  },
+  {
+    "id": "scarlett",
+    "name": "Scarlett Johansson",
+    "avatar": "cards/Scarlett-Johansson.jpg",
+    "preview": "Let's plan something soon!",
+    "time": "3h",
+    "unread": 0,
+    "messages": [
+      { "from": "them", "text": "Let's plan something soon!" },
+      { "from": "me", "text": "I'm down. What do you want to do?" }
+    ]
+  },
+  {
+    "id": "zendaya",
+    "name": "Zendaya",
+    "avatar": "cards/zendaya.jpg",
+    "preview": "I'm on my way.",
+    "time": "5h",
+    "unread": 0,
+    "messages": [
+      { "from": "them", "text": "I'm on my way." },
+      { "from": "me", "text": "See you soon!" }
+    ]
+  },
+  {
+    "id": "zoey",
+    "name": "Zoey Deutch",
+    "avatar": "cards/Zoey-Deutch-768x872.jpg",
+    "preview": "Goodnight!",
+    "time": "1d",
+    "unread": 0,
+    "messages": [
+      { "from": "me", "text": "Had a great time today." },
+      { "from": "them", "text": "Goodnight!" }
+    ]
+  },
+  {
+    "id": "selena",
+    "name": "Selena Gomez",
+    "avatar": "cards/selena-gomez-768x797.jpg",
+    "preview": "Can you send that pic?",
+    "time": "2d",
+    "unread": 0,
+    "messages": [
+      { "from": "them", "text": "Can you send that pic?" },
+      { "from": "me", "text": "Yep, sending it now." }
+    ]
+  }
+]

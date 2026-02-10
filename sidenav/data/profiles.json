@@ -1,0 +1,333 @@
+[
+  {
+    "id": "alexandra-daddario",
+    "name": "Alexandra daddario",
+    "age": 24,
+    "job": "",
+    "bio": "Film lover who runs on espresso, sunsets, and spontaneous weekend trips.",
+    "passions": "Netflix , Shopping , Music , Dog lover",
+    "photos": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Alexandra%20Daddario%20(16437464073).jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Alexandra%20Daddario%20(16437482583).jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Alexandra%20Daddario%20(16870071620).jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Alexandra%20Daddario%20(16871413889)%20(cropped).jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Alexandra%20Daddario%20(16871413889).jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Alexandra%20Daddario%20(17056797841).jpg"
+    ],
+    "sex": "F"
+  },
+  {
+    "id": "ana-de-armas",
+    "name": "Ana de Armas",
+    "age": 25,
+    "job": "",
+    "bio": "Curious, creative, and always chasing a good story and a great dessert.",
+    "passions": "Netflix , Shopping , Music , Dog lover",
+    "photos": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Ana%20de%20Armas%20(54461783167).jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Ana%20de%20Armas%20(54461783762).jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Ana%20de%20Armas%20(54461783862).jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Ana%20de%20Armas%20(54461783872).jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Ana%20de%20Armas%20(54461784417).jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Ana%20de%20Armas%20(54461784447).jpg"
+    ],
+    "sex": "F"
+  },
+  {
+    "id": "britt-robertson",
+    "name": "Britt Robertson",
+    "age": 26,
+    "job": "",
+    "bio": "Easygoing adventurer with a soft spot for road trips and vintage finds.",
+    "passions": "Netflix , Shopping , Music , Dog lover",
+    "photos": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Britt%20Robertson%20(40606627200)%20(cropped).jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Britt%20Robertson%20(40606627200)%20(cropped-bis).jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Britt%20Robertson%20(40606627200).jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Britt%20Robertson%20(Cropped).jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Britt%20Robertson%202,%202010.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Britt%20Robertson%202010.jpg"
+    ],
+    "sex": "F"
+  },
+  {
+    "id": "emma-watson",
+    "name": "Emma Watson",
+    "age": 27,
+    "job": "",
+    "bio": "Bookish optimist who loves museums, coffee walks, and thoughtful conversations.",
+    "passions": "Netflix , Shopping , Music , Dog lover",
+    "photos": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Emma%20Watson%202%2C%202013.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Emma%20Watson%202012%20Shankbone%20%28cropped%29.JPG",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Emma%20Watson%20Cannes%202013%203.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Emma%20Watson%20GoF%20Premiere%20Crop.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Emma%20Watson%20interview%20in%202017%20%28cropped%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Emma%20Watson%20ONU%202017.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Emma%20Watson%2C%202012.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/EmmaWatsonNov2010-2.jpg"
+    ],
+    "sex": "F"
+  },
+  {
+    "id": "gal-gadot",
+    "name": "Gal Gadot",
+    "age": 28,
+    "job": "",
+    "bio": "Active, upbeat, and always down for a new challenge or a beach day.",
+    "passions": "Netflix , Shopping , Music , Dog lover",
+    "photos": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Gal%20Gadot%20(28823128627).jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Gal%20Gadot%20(28823167857).jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Gal%20Gadot%20(28823170577).jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Gal%20Gadot%20(29888539538).jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Gal%20Gadot%20(41950918780).jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Gal%20Gadot%20at%20the%202018%20Comic-Con%20International%2010.jpg"
+    ],
+    "sex": "F"
+  },
+  {
+    "id": "kristen-stewart",
+    "name": "Kristen Stewart",
+    "age": 29,
+    "job": "",
+    "bio": "Indie music, late-night talks, and a little mischief in the mix.",
+    "passions": "Netflix , Shopping , Music , Dog lover",
+    "photos": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Cannes%20084%20%2828110747125%29%20%28cropped%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Kristen%20Stewart%20%286852652758%29%20%28cropped%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Kristen%20Stewart%20%40%202010%20Academy%20Awards%20crop2.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Kristen%20Stewart%20by%20Gage%20Skidmore%202.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Kristen%20Stewart%20Cannes%202014.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Kristen%20Stewart%20Cannes%202016%202.jpg"
+    ],
+    "sex": "F"
+  },
+  {
+    "id": "lily-collins",
+    "name": "Lily Collins",
+    "age": 30,
+    "job": "",
+    "bio": "Romantic at heart, camera in hand, always chasing charming streets.",
+    "passions": "Netflix , Shopping , Music , Dog lover",
+    "photos": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Lily%20Collins%202%20May%202019.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Lily%20Collins%20May%202019.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Lily%20Collins%20House%20of%20Icons%202019.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Lily%20Collins%20at%20Tolkien%20event%20%2847748800552%29%20%28crop%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Tolkien%20%2832857583877%29%20%28cropped%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Tolkien%20%2832857584157%29%20%28cropped%29.jpg"
+    ],
+    "sex": "F"
+  },
+  {
+    "id": "lily-james",
+    "name": "Lily James",
+    "age": 24,
+    "job": "",
+    "bio": "Bright energy, big laughs, and a love for classic films and theater.",
+    "passions": "Netflix , Shopping , Music , Dog lover",
+    "photos": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/AllAboutEveNoelC180319%202.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/AllAboutEveNoelC180319%203.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/AllAboutEveNoelC180319%204%20%28cropped%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/AllAboutEveNoelC180319%204.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/AllAboutEveNoelC180319%205.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Gillian%20Anderson%20Lily%20James%20%282019%29.jpg"
+    ],
+    "sex": "F"
+  },
+  {
+    "id": "margot-robbie",
+    "name": "Margot Robbie",
+    "age": 25,
+    "job": "",
+    "bio": "Sunny, bold, and usually planning the next fun outing with friends.",
+    "passions": "Netflix , Shopping , Music , Dog lover",
+    "photos": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/29th%20Critics%20Choice%20Awards%20-%20Margot%20Robbie%20%28cropped%202%29.png",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/29th%20Critics%20Choice%20Awards%20-%20Margot%20Robbie%20%28cropped%29.png",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/29th%20Critics%20Choice%20Awards%20-%20Margot%20Robbie%201.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/29th%20Critics%20Choice%20Awards%20-%20Margot%20Robbie%202.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/29th%20Critics%20Choice%20Awards%20-%20Margot%20Robbie%203%20%28cropped%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/29th%20Critics%20Choice%20Awards%20-%20Margot%20Robbie%203.jpg"
+    ],
+    "sex": "F"
+  },
+  {
+    "id": "melissa-benoist",
+    "name": "Melissa Benoist",
+    "age": 26,
+    "job": "",
+    "bio": "Warm, grounded, and happiest around good people and good food.",
+    "passions": "Netflix , Shopping , Music , Dog lover",
+    "photos": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Melissa%20Benoist%20%2828015580434%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Melissa%20Benoist%20%2828348177880%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Melissa%20Benoist%20%2828348276770%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Melissa%20Benoist%20%2828348365340%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Melissa%20Benoist%20%2828526070262%29%20%28cropped%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Melissa%20Benoist%20by%20Gage%20Skidmore.jpg"
+    ],
+    "sex": "F"
+  },
+  {
+    "id": "scarlett-johansson",
+    "name": "Scarlett Johansson",
+    "age": 27,
+    "job": "",
+    "bio": "City nights, live shows, and a soft spot for low\u2011key Sundays.",
+    "passions": "Netflix , Shopping , Music , Dog lover",
+    "photos": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Asteroid%20City%20Cannes%20Film%20Festival%2002%20%28cropped%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Asteroid%20City%20Cannes%20Film%20Festival%2002.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Asteroid%20City%20Cannes%20Film%20Festival%2004.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Asteroid%20City%20Cannes%20Film%20Festival%2006.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Scarlett%20Johansson%20%26%20Colin%20Jost%20Cannes%202023.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Scarlett%20Johansson%20Cannes%202023.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Scarlett%20Johansson%20Cannes%20Film%20Festival%2002.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Scarlett%20Johansson%20Cannes%20Film%20Festival%2003.jpg"
+    ],
+    "sex": "F"
+  },
+  {
+    "id": "selena-gomez",
+    "name": "Selena Gomez",
+    "age": 28,
+    "job": "",
+    "bio": "Kind soul who loves cozy playlists, skincare nights, and real talk.",
+    "passions": "Netflix , Shopping , Music , Dog lover",
+    "photos": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Selena%20Gomez%20at%20the%202024%20Toronto%20International%20Film%20Festival%206.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Selena%20Gomez%20at%20the%202024%20Toronto%20International%20Film%20Festival%207.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Selena%20Gomez%20at%20the%202024%20Toronto%20International%20Film%20Festival%208.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Selena%20Gomez%20at%20the%202024%20Toronto%20International%20Film%20Festival%209.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Selena%20Gomez%20at%20the%202024%20Toronto%20International%20Film%20Festival.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Selena%20Gomez%20Televerse%202025%2001.png",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Selena%20Gomez%20Televerse%202025%2002.png",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Selena%20Gomez%20Televerse%202025%2003.png"
+    ],
+    "sex": "F"
+  },
+  {
+    "id": "zoey-deutch",
+    "name": "Zoey Deutch",
+    "age": 29,
+    "job": "",
+    "bio": "Playful and witty, always up for a new caf\u00e9 or movie night.",
+    "passions": "Netflix , Shopping , Music , Dog lover",
+    "photos": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/EXclusive%20TV%20Zoey%20Deutch%20%28cropped%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/EXclusive%20TV%20Zoey%20Deutch.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Zoey%20Deutch%20%2832389761494%29%20%28cropped%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Zoey%20Deutch%20%2832389761494%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Zoey%20Deutch%20at%20Golden%20Globes%20Red%20Carpet%202020%20%28cropped%29.png",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Zoey%20Deutch%20at%20Golden%20Globes%20Red%20Carpet%202020.png"
+    ],
+    "sex": "F"
+  },
+  {
+    "id": "amber-heard",
+    "name": "amber heard",
+    "age": 30,
+    "job": "",
+    "bio": "Free\u2011spirited and outdoorsy, with a love for art and ocean air.",
+    "passions": "Netflix , Shopping , Music , Dog lover",
+    "photos": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Amber%20Heard%20(28835238217).jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Amber%20Heard%20(42867568355).jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Amber%20Heard%20(43055430314)%20(cropped).jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Amber%20Heard%20(43055430314).jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Amber%20Heard%20(43723454772).jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Amber%20Heard%20by%20Gage%20Skidmore.jpg"
+    ],
+    "sex": "F"
+  },
+  {
+    "id": "emma-stone",
+    "name": "emma stone",
+    "age": 24,
+    "job": "",
+    "bio": "Goofy, curious, and into hidden gems, comedy shows, and pizza.",
+    "passions": "Netflix , Shopping , Music , Dog lover",
+    "photos": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Emma%20Stone%20at%20the%202025%20Cannes%20Film%20Festival%2001.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Emma%20Stone%20at%20the%202025%20Cannes%20Film%20Festival%2002.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Emma%20Stone%20at%20the%202025%20Cannes%20Film%20Festival%2003.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Emma%20Stone%20at%20the%202025%20Cannes%20Film%20Festival%2004.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Emma%20Stone.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/BugoniaBFILFF101025-10%20(54849804091).jpg"
+    ],
+    "sex": "F"
+  },
+  {
+    "id": "hailee-steinfeld",
+    "name": "hailee steinfeld",
+    "age": 25,
+    "job": "",
+    "bio": "Music on repeat, gym breaks, and golden\u2011hour drives.",
+    "passions": "Netflix , Shopping , Music , Dog lover",
+    "photos": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Hailee%20Steinfeld%20(28787524127).jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Hailee%20Steinfeld%20(28787539647).jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Hailee%20Steinfeld%20(28787543177).jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Hailee%20Steinfeld%20(28787546407).jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Hailee%20Steinfeld%20(41855719830).jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Hailee%20Steinfeld%20by%20Gage%20Skidmore.jpg"
+    ],
+    "sex": "F"
+  },
+  {
+    "id": "jennifer-lawrence",
+    "name": "jennifer lawrence",
+    "age": 26,
+    "job": "",
+    "bio": "Down\u2011to\u2011earth, sarcastic, and loyal to snacks and close friends.",
+    "passions": "Netflix , Shopping , Music , Dog lover",
+    "photos": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Causeway%2001%20%2852359107693%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Causeway%2002%20%2852359107768%29%20%28cropped%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Causeway%2002%20%2852359107768%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Causeway%2004%20%2852358875981%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Causeway%2005%20%2852358875201%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Jennifer%20Lawrence%20at%20Toronto%20Film%20Festival%20%2852358952856%29.jpg"
+    ],
+    "sex": "F"
+  },
+  {
+    "id": "teresa-palmer",
+    "name": "teresa palmer",
+    "age": 27,
+    "job": "",
+    "bio": "Balanced and thoughtful, into wellness, hiking, and home\u2011cooked meals.",
+    "passions": "Netflix , Shopping , Music , Dog lover",
+    "photos": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Teresa%20Palmer%20%286850190854%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Teresa%20Palmer%20%286850191926%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Teresa%20Palmer%20%286850207772%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Teresa%20Palmer%20%286850208286%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Teresa%20Palmer%20%286996315859%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Teresa%20Palmer%20%286996316291%29.jpg"
+    ],
+    "sex": "F"
+  },
+  {
+    "id": "zendaya",
+    "name": "zendaya",
+    "age": 28,
+    "job": "",
+    "bio": "Style, ambition, and a soft spot for thoughtful surprises.",
+    "passions": "Netflix , Shopping , Music , Dog lover",
+    "photos": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Cast%20of%20Challengers%202024.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Zendaya%202024.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Zendaya%20y%20Timothe%C3%A9%20Chalamet%20en%202024%2001.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Zendaya%20y%20Timothe%C3%A9%20Chalamet%20en%202024%2002.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Zendaya%20NMACC%2001.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Zendaya%20NMACC%2002.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Zendaya-attend-the-Nita-Mukesh-Ambani-Cultural-Centre-Gala-on-Day-21%20%28cropped%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Zendaya-attend-the-Nita-Mukesh-Ambani-Cultural-Centre-Gala-on-Day-21.jpg"
+    ],
+    "sex": "F"
+  }
+]

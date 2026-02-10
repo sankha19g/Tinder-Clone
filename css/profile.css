@@ -1,8 +1,11 @@
+/* File: ./css/profile.css | Purpose: styles */
+/* Full height layout */
 body,
 html {
   height: 100%;
 }
 
+/* Legacy heading style (note: very large margins) */
 h2 {
   font-weight: bolder;
   color: #898dbf;
@@ -75,7 +78,6 @@ form .btn {
   height: 100%;
 }
 
-
 .menu {
   position: absolute;
   right: 10%;
@@ -106,7 +108,9 @@ form .btn {
   content: "";
   left: 0;
   top: 10px;
-  transition: top 0.2s 0.2s, transform 0.2s;
+  transition:
+    top 0.2s 0.2s,
+    transform 0.2s;
 }
 
 .bar:before {
@@ -114,7 +118,9 @@ form .btn {
   content: "";
   left: 0;
   bottom: 10px;
-  transition: bottom 0.2s 0.2s, transform 0.2s;
+  transition:
+    bottom 0.2s 0.2s,
+    transform 0.2s;
 }
 .bar.animate {
   background: transparent;
@@ -122,14 +128,18 @@ form .btn {
 .bar.animate:after {
   top: 0;
   transform: rotate(45deg);
-  transition: top 0.2s, transform 0.2s 0.2s;
+  transition:
+    top 0.2s,
+    transform 0.2s 0.2s;
   background: #fff;
 }
 
 .bar.animate:before {
   bottom: 0;
   transform: rotate(-45deg);
-  transition: bottom 0.2s, transform 0.2s 0.2s;
+  transition:
+    bottom 0.2s,
+    transform 0.2s 0.2s;
   background: #fff;
 }
 

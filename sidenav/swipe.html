@@ -1,9 +1,14 @@
-<!DOCTYPE html>
+<!-- File: ./sidenav/swipe.html | Purpose: page markup -->
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <title>Swipe</title>
-    <link rel="icon" type="image/x-icon" href="https://cdn.iconscout.com/icon/free/png-512/free-tinder-3691231-3073751.png?f=webp&w=256">
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://cdn.iconscout.com/icon/free/png-512/free-tinder-3691231-3073751.png?f=webp&w=256"
+    />
     <meta name="viewport" content="width=device-width" />
     <link
       rel="stylesheet"
@@ -25,15 +30,23 @@
     <link rel="stylesheet" href="profiles/style.css" />
   </head>
   <body>
+    <!-- Side navigation -->
     <nav class="navigation">
-      <a href="#second"> <i class="fa-regular fa-circle-user"></i></a>
+      <button class="nav-button" type="button" id="openProfileSettings">
+        <i class="fa-regular fa-circle-user"></i>
+      </button>
       <a href="#swipe"><i class="fa-solid fa-fire"></i></a>
-      <a href="#third"><i class="fa-solid fa-comments"></i></a>
+      <a href="#third" class="nav-messages">
+        <i class="fa-solid fa-comments"></i>
+        <span class="nav-badge" id="navMessageCount">0</span>
+      </a>
       <a href="#fourth"><i class="fa-solid fa-gear"></i></a>
       <a href="../index.html"><i class="fa-solid fa-right-from-bracket"></i></a>
     </nav>
 
+    <!-- Main app container -->
     <div class="container">
+      <!-- Swipe cards section -->
       <section id="swipe">
         <!-- partial:index.partial.html -->
         <div class="tinder">
@@ -43,144 +56,337 @@
           </div>
           <div class="rotated-text">Swipe</div>
           <div class="tinder--cards">
-            <div class="tinder--card">
+            <div
+              class="tinder--card"
+              data-age="24"
+              data-sex="F"
+              data-profile-id="alexandra-daddario"
+            >
               <img src="cards/Alexandra-Daddario-768x800.jpg" />
-              <h3>Alexandra Daddario</h3>
+              <h3>
+                <span class="card-name">Alexandra Daddario</span>
+                <span class="card-meta"></span>
+              </h3>
 
-              <a href="profiles/alexzandra.html">
-                <button class="button">View Profile</button></a
+              <button
+                class="button view-profile"
+                data-profile-id="alexandra-daddario"
               >
+                View Profile
+              </button>
             </div>
-            <div class="tinder--card">
+            <div
+              class="tinder--card"
+              data-age="30"
+              data-sex="F"
+              data-profile-id="amber-heard"
+            >
               <img src="cards/amber-heard.jpg" />
-              <h3>amber heard</h3>
+              <h3>
+                <span class="card-name">amber heard</span>
+                <span class="card-meta"></span>
+              </h3>
 
-              <a href="profiles/amber heard.html">
-                <button class="button">View Profile</button></a
-              >
+              <button class="button view-profile" data-profile-id="amber-heard">
+                View Profile
+              </button>
             </div>
-            <div class="tinder--card">
+            <div
+              class="tinder--card"
+              data-age="25"
+              data-sex="F"
+              data-profile-id="ana-de-armas"
+              data-match="true"
+            >
               <img src="cards/Ana-de-Armas-768x863.jpg" />
-              <h3>Ana de Armas</h3>
-              <a href="profiles/ann de armas.html">
-                <button class="button">View Profile</button></a
+              <h3>
+                <span class="card-name">Ana de Armas</span>
+                <span class="card-meta"></span>
+              </h3>
+              <button
+                class="button view-profile"
+                data-profile-id="ana-de-armas"
               >
+                View Profile
+              </button>
             </div>
-            <div class="tinder--card">
+            <div
+              class="tinder--card"
+              data-age="26"
+              data-sex="F"
+              data-profile-id="britt-robertson"
+            >
               <img src="cards/Britt-Robertson.jpg" />
-              <h3>Britt Robertson</h3>
-              <a href="profiles/britt robertson.html">
-                <button class="button">View Profile</button></a
+              <h3>
+                <span class="card-name">Britt Robertson</span>
+                <span class="card-meta"></span>
+              </h3>
+              <button
+                class="button view-profile"
+                data-profile-id="britt-robertson"
               >
+                View Profile
+              </button>
             </div>
-            <div class="tinder--card">
+            <div
+              class="tinder--card"
+              data-age="24"
+              data-sex="F"
+              data-profile-id="emma-stone"
+            >
               <img src="cards/emma-stone-768x844.jpg" />
-              <h3>emma stone</h3>
-              <a href="profiles/emma stone.html">
-                <button class="button">View Profile</button></a
-              >
+              <h3>
+                <span class="card-name">emma stone</span>
+                <span class="card-meta"></span>
+              </h3>
+              <button class="button view-profile" data-profile-id="emma-stone">
+                View Profile
+              </button>
             </div>
-            <div class="tinder--card">
+            <div
+              class="tinder--card"
+              data-age="27"
+              data-sex="F"
+              data-profile-id="emma-watson"
+              data-match="true"
+            >
               <img src="cards/Emma-Watson-768x910.jpg" />
-              <h3>Emma Watson</h3>
-              <a href="profiles/emma watson.html">
-                <button class="button">View Profile</button></a
-              >
+              <h3>
+                <span class="card-name">Emma Watson</span>
+                <span class="card-meta"></span>
+              </h3>
+              <button class="button view-profile" data-profile-id="emma-watson">
+                View Profile
+              </button>
             </div>
-            <div class="tinder--card">
+            <div
+              class="tinder--card"
+              data-age="28"
+              data-sex="F"
+              data-profile-id="gal-gadot"
+            >
               <img src="cards/Gal-Gadot-768x866.jpg" />
-              <h3>Gal Gadot</h3>
-              <a href="profiles/gal gagot.html">
-                <button class="button">View Profile</button></a
-              >
+              <h3>
+                <span class="card-name">Gal Gadot</span>
+                <span class="card-meta"></span>
+              </h3>
+              <button class="button view-profile" data-profile-id="gal-gadot">
+                View Profile
+              </button>
             </div>
-            <div class="tinder--card">
+            <div
+              class="tinder--card"
+              data-age="25"
+              data-sex="F"
+              data-profile-id="hailee-steinfeld"
+            >
               <img src="cards/hailee-steinfeld-768x804.jpg" />
-              <h3>hailee steinfeld</h3>
-              <a href="profiles/hailee steinfeld.html">
-                <button class="button">View Profile</button></a
+              <h3>
+                <span class="card-name">hailee steinfeld</span>
+                <span class="card-meta"></span>
+              </h3>
+              <button
+                class="button view-profile"
+                data-profile-id="hailee-steinfeld"
               >
+                View Profile
+              </button>
             </div>
-            <div class="tinder--card">
+            <div
+              class="tinder--card"
+              data-age="26"
+              data-sex="F"
+              data-profile-id="jennifer-lawrence"
+            >
               <img src="cards/jennifer-lawrence-768x786.jpg" />
-              <h3>jennifer lawrence</h3>
-              <a href="profiles/jennifer lawrence.html">
-                <button class="button">View Profile</button></a
+              <h3>
+                <span class="card-name">jennifer lawrence</span>
+                <span class="card-meta"></span>
+              </h3>
+              <button
+                class="button view-profile"
+                data-profile-id="jennifer-lawrence"
               >
+                View Profile
+              </button>
             </div>
-            <div class="tinder--card">
+            <div
+              class="tinder--card"
+              data-age="29"
+              data-sex="F"
+              data-profile-id="kristen-stewart"
+            >
               <img src="cards/Kristen-Stewart-768x911.jpg" />
-              <h3>Kristen Stewart</h3>
-              <a href="profiles/kristen steward.html">
-                <button class="button">View Profile</button></a
+              <h3>
+                <span class="card-name">Kristen Stewart</span>
+                <span class="card-meta"></span>
+              </h3>
+              <button
+                class="button view-profile"
+                data-profile-id="kristen-stewart"
               >
+                View Profile
+              </button>
             </div>
-            <div class="tinder--card">
+            <div
+              class="tinder--card"
+              data-age="30"
+              data-sex="F"
+              data-profile-id="lily-collins"
+            >
               <img src="cards/Lily-Collins-768x868.jpg" />
-              <h3>Lily Collins</h3>
-              <a href="profiles/lily collins.html">
-                <button class="button">View Profile</button></a
+              <h3>
+                <span class="card-name">Lily Collins</span>
+                <span class="card-meta"></span>
+              </h3>
+              <button
+                class="button view-profile"
+                data-profile-id="lily-collins"
               >
+                View Profile
+              </button>
             </div>
-            <div class="tinder--card">
+            <div
+              class="tinder--card"
+              data-age="24"
+              data-sex="F"
+              data-profile-id="lily-james"
+            >
               <img src="cards/Lily-James-768x925.jpg" />
-              <h3>Lily James</h3>
-              <a href="profiles/lily james.html">
-                <button class="button">View Profile</button></a
-              >
+              <h3>
+                <span class="card-name">Lily James</span>
+                <span class="card-meta"></span>
+              </h3>
+              <button class="button view-profile" data-profile-id="lily-james">
+                View Profile
+              </button>
             </div>
-            <div class="tinder--card">
+            <div
+              class="tinder--card"
+              data-age="25"
+              data-sex="F"
+              data-profile-id="margot-robbie"
+            >
               <img src="cards/Margot-Robbie-768x873.jpg" />
-              <h3>Margot Robbie</h3>
-              <a href="profiles/margon robbie.html">
-                <button class="button">View Profile</button></a
+              <h3>
+                <span class="card-name">Margot Robbie</span>
+                <span class="card-meta"></span>
+              </h3>
+              <button
+                class="button view-profile"
+                data-profile-id="margot-robbie"
               >
+                View Profile
+              </button>
             </div>
-            <div class="tinder--card">
+            <div
+              class="tinder--card"
+              data-age="26"
+              data-sex="F"
+              data-profile-id="melissa-benoist"
+            >
               <img src="cards/Melissa-Benoist-768x821.jpg" />
-              <h3>Melissa Benoist</h3>
-              <a href="profiles/melissa benoist.html">
-                <button class="button">View Profile</button></a
+              <h3>
+                <span class="card-name">Melissa Benoist</span>
+                <span class="card-meta"></span>
+              </h3>
+              <button
+                class="button view-profile"
+                data-profile-id="melissa-benoist"
               >
+                View Profile
+              </button>
             </div>
-            <div class="tinder--card">
+            <div
+              class="tinder--card"
+              data-age="27"
+              data-sex="F"
+              data-profile-id="scarlett-johansson"
+            >
               <img src="cards/Scarlett-Johansson.jpg" />
-              <h3>Scarlett Johansson</h3>
-              <a href="profiles/scarlett johansson.html">
-                <button class="button">View Profile</button></a
+              <h3>
+                <span class="card-name">Scarlett Johansson</span>
+                <span class="card-meta"></span>
+              </h3>
+              <button
+                class="button view-profile"
+                data-profile-id="scarlett-johansson"
               >
+                View Profile
+              </button>
             </div>
-            <div class="tinder--card">
+            <div
+              class="tinder--card"
+              data-age="28"
+              data-sex="F"
+              data-profile-id="selena-gomez"
+            >
               <img src="cards/selena-gomez-768x797.jpg" />
-              <h3>selena gomez</h3>
-              <a href="profiles/selena gomez.html">
-                <button class="button">View Profile</button></a
+              <h3>
+                <span class="card-name">selena gomez</span>
+                <span class="card-meta"></span>
+              </h3>
+              <button
+                class="button view-profile"
+                data-profile-id="selena-gomez"
               >
+                View Profile
+              </button>
             </div>
-            <div class="tinder--card">
+            <div
+              class="tinder--card"
+              data-age="27"
+              data-sex="F"
+              data-profile-id="teresa-palmer"
+            >
               <img src="cards/teresa-palmer-768x764.jpg" />
-              <h3>teresa palmer</h3>
-              <a href="profiles/teresa palmer.html">
-                <button class="button">View Profile</button></a
+              <h3>
+                <span class="card-name">teresa palmer</span>
+                <span class="card-meta"></span>
+              </h3>
+              <button
+                class="button view-profile"
+                data-profile-id="teresa-palmer"
               >
+                View Profile
+              </button>
             </div>
-            <div class="tinder--card">
+            <div
+              class="tinder--card"
+              data-age="28"
+              data-sex="F"
+              data-profile-id="zendaya"
+            >
               <img src="cards/zendaya.jpg" />
-              <h3>Zendaya</h3>
-              <a href="profiles/zendaya.html">
-                <button class="button">View Profile</button></a
-              >
+              <h3>
+                <span class="card-name">Zendaya</span>
+                <span class="card-meta"></span>
+              </h3>
+              <button class="button view-profile" data-profile-id="zendaya">
+                View Profile
+              </button>
             </div>
-            <div class="tinder--card">
+            <div
+              class="tinder--card"
+              data-age="29"
+              data-sex="F"
+              data-profile-id="zoey-deutch"
+            >
               <img src="cards/Zoey-Deutch-768x872.jpg" />
-              <h3>Zoey-Deutch</h3>
-              <a href="profiles/zoey deutch.html">
-                <button class="button">View Profile</button></a
-              >
+              <h3>
+                <span class="card-name">Zoey-Deutch</span>
+                <span class="card-meta"></span>
+              </h3>
+              <button class="button view-profile" data-profile-id="zoey-deutch">
+                View Profile
+              </button>
             </div>
             <div class="tinder--card">
               <img src="cards/ERROR.jpg" />
-              <h3>NO ONE AROUND YOU AT THE MOMENT</h3>
+              <h3>
+                <span class="card-name">NO ONE AROUND YOU AT THE MOMENT</span>
+                <span class="card-meta"></span>
+              </h3>
               <a href="#">
                 <button class="button" onclick="window.location.reload()">
                   REFRESH
@@ -204,151 +410,347 @@
         <!-- partial -->
       </section>
 
-      <section id="second">
-        <div class="col-md-9">
-          <div class="container content clear-fix">
-            <h2 class="mt-5 mb-5">Profile Settings </h2>
+      <!-- Placeholder section (profile settings opens as modal) -->
+      <section id="second"></section>
 
-            <div class="row" style="height: 100%">
-              <div class="col-md-3">
-                <div href="#" class="d-inline">
-                  <img
-                    src="../images/dp.jpg"
-                     class="profilepic"
-                  /><br />
-                  <p class="pl-2 mt-2">
-                    <br />
-                    <a
-                      href="#"
-                      class="btn_profile1"
-                      >Edit Picture</a
-                    >
-                  </p>
-                  <br />
-                  <p class="pl-2 mt-2">
-                    <a
-                      href="#"
-                      class="btn_profile1"
-                      >Add more pics</a
-                    >
-                  </p>
+      <!-- Messages section -->
+      <section id="third">
+        <div class="messages-panel">
+          <header class="messages-header">
+            <h2>Messages</h2>
+            <span class="messages-count" id="messagesCount">0</span>
+          </header>
+
+          <div class="messages-list" id="messagesList"></div>
+        </div>
+      </section>
+
+      <!-- Chat modal for message threads -->
+      <div class="chat-modal" id="chatModal" aria-hidden="true">
+        <div class="chat-modal__backdrop" data-close-modal></div>
+        <div class="chat-modal__panel" role="dialog" aria-modal="true">
+          <header class="chat-modal__header">
+            <div class="chat-user">
+              <img
+                class="chat-user__avatar"
+                id="chatUserAvatar"
+                src=""
+                alt=""
+              />
+              <div class="chat-user__info">
+                <div class="chat-user__name" id="chatUserName"></div>
+                <div class="chat-user__status">Active now</div>
+              </div>
+            </div>
+            <button class="chat-close" type="button" data-close-modal>
+              Close
+            </button>
+          </header>
+          <div class="chat-body" id="chatBody"></div>
+          <form class="chat-input" onsubmit="return false;">
+            <input
+              type="text"
+              placeholder="Type a message..."
+              aria-label="Type a message"
+            />
+            <button type="button">Send</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Profile view modal -->
+      <div class="profile-modal" id="profileModal" aria-hidden="true">
+        <div class="profile-modal__backdrop" data-close-profile></div>
+        <div class="profile-modal__panel" role="dialog" aria-modal="true">
+          <header class="profile-modal__header">
+            <div class="profile-modal__title">
+              <div class="profile-title-row">
+                <h2 id="profileName">Profile</h2>
+                <div class="profile-meta" id="profileMeta"></div>
+                <div class="profile-socials">
+                  <a href="#" class="profile-social" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                  <a href="#" class="profile-social" aria-label="Twitter">
+                    <i class="fa-brands fa-x-twitter"></i>
+                  </a>
                 </div>
               </div>
-
-              <div class="col-md-9">
-                <div class="profiletext__">
-                  <h9 style="font-size: 3vw; font-weight:900"> TOM HOLLAND , 25 </h9><br />
-                  <h9 style="font-size: 2vw"> ACTOR</h9><br />
-                  <br />
-                  <!-- <br />
-                  <h9 style="font-size: 2vw">
-                    HOBBIES : PAINTING, SINGING, DANCING</h9
-                  ><br /> -->
-                  <br />
-                  <h9 style="font-size: 3vw;font-weight:900; "> BIO </h9><br />
-                  <div class="Bio_box">
-                  <h9 class="Bio-font">
-                    Looking for an adventure partner. You in?</h9
-                  ></div>
-                  <br />
+            </div>
+            <button class="profile-close" type="button" data-close-profile>
+              Close
+            </button>
+          </header>
+          <div class="profile-modal__body">
+            <div class="profile-info">
+              <div class="profile-left">
+                <div class="profile-section">
+                  <h3>Bio</h3>
+                  <p id="profileBio"></p>
+                </div>
+                <div class="profile-section">
+                  <h3>Passions</h3>
+                  <p id="profilePassions"></p>
+                </div>
+              </div>
+              <div class="profile-right">
+                <div class="profile-avatar-side">
+                  <img id="profileAvatar" src="" alt="Profile photo" />
                 </div>
               </div>
             </div>
-          </div>
 
-          <div class="grid">
-            <div class="image-container">
-              <img
-                class="image"
-                src="https://i.pinimg.com/564x/95/8e/ff/958efff316e79562c342a2dab830e5ff.jpg"
-                alt="Image 1"
-              />
-              <div class="overlay">
-                <div class="text"></div>
-              </div>
-            </div>
-            <div class="image-container">
-              <img
-                class="image"
-                src="https://i.pinimg.com/564x/e7/0c/10/e70c1042b37b6851287a4388d42ee8c5.jpg"
-                alt="Image 2"
-              />
-              <div class="overlay">
-                <div class="text"></div>
-              </div>
-            </div>
-            <div class="image-container">
-              <img
-                class="image"
-                src="https://i.pinimg.com/564x/45/6d/88/456d88c3c617444dcd1af687dd02a0d7.jpg"
-                alt="Image 3"
-              />
-              <div class="overlay">
-                <div class="text"></div>
-              </div>
-            </div>
-            <div class="image-container">
-              <img
-                class="image"
-                src="https://i.pinimg.com/564x/bf/2c/da/bf2cdaeebb9ab8036f081519072a0177.jpg"
-                alt="Image 4"
-              />
-              <div class="overlay">
-                <div class="text"></div>
-              </div>
-            </div>
-            <div class="image-container">
-              <img
-                class="image"
-                src="https://i.pinimg.com/564x/d3/a2/51/d3a2511a15d7e7bc953d2e77c513c047.jpg"
-                alt="Image 5"
-              />
-              <div class="overlay">
-                <div class="text"></div>
-              </div>
-            </div>
-            <div class="image-container">
-              <img
-                class="image"
-                src="https://i.pinimg.com/564x/76/2b/6b/762b6bd914ff3914553911c5961f2df8.jpg"
-                alt="Image 6"
-              />
-              <div class="overlay">
-                <div class="text"></div>
+            <div class="profile-section">
+              <h3>Photos</h3>
+              <div class="profile-photos" id="profilePhotos"></div>
+              <div class="profile-photos-loading" id="profilePhotosLoading">
+                Loading photos...
               </div>
             </div>
           </div>
         </div>
+      </div>
 
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script
-          src="https://code.jquery.com/jquery-3.3.1.min.js"
-          integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-          crossorigin="anonymous"
-        ></script>
-        <script
-          src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-          integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-          crossorigin="anonymous"
-        ></script>
-        <script
-          src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-          integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-          crossorigin="anonymous"
-        ></script>
-        <script
-          defer
-          src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
-        ></script>
-        <script src="js/profile.js"></script>
-      </section>
+      <!-- Profile settings modal -->
+      <div class="settings-modal" id="profileSettingsModal" aria-hidden="true">
+        <div class="settings-modal__backdrop" data-close-settings></div>
+        <div class="settings-modal__panel" role="dialog" aria-modal="true">
+          <header class="settings-modal__header">
+            <h2>Profile Settings</h2>
+            <button class="settings-close" type="button" data-close-settings>
+              Close
+            </button>
+          </header>
+          <div class="settings-modal__body">
+            <div class="settings-profile">
+              <div class="settings-profile__top">
+                <div class="settings-avatar">
+                  <img src="../images/dp.jpg" alt="Profile photo" />
+                  <button
+                    class="settings-avatar__edit"
+                    type="button"
+                    aria-label="Edit photo"
+                  >
+                    <i class="fa-solid fa-pen"></i>
+                  </button>
+                  <div class="settings-menu">
+                    <button type="button" class="settings-menu__item">
+                      Choose from photos
+                    </button>
+                    <button type="button" class="settings-menu__item">
+                      Take photo
+                    </button>
+                  </div>
+                </div>
+                <div class="settings-main">
+                  <div class="settings-name">Tom Holland, 25</div>
+                  <div class="settings-interests">
+                    Interests:
+                    <div class="settings-field">
+                      Movies, Traveling, Music, Coffee
+                    </div>
+                  </div>
+                  <div class="settings-bio">
+                    Bio:
+                    <div class="settings-field">
+                      Looking for an adventure partner. You in?
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-      <section id="third">
-        <h1>Messeges</h1>
-      </section>
+              <div class="settings-photos">
+                <div class="settings-photo">
+                  <img
+                    src="https://i.pinimg.com/564x/95/8e/ff/958efff316e79562c342a2dab830e5ff.jpg"
+                    alt="Photo 1"
+                  />
+                  <button
+                    class="settings-photo__edit"
+                    type="button"
+                    aria-label="Edit photo"
+                  >
+                    <i class="fa-solid fa-pen"></i>
+                  </button>
+                  <div class="settings-menu">
+                    <button type="button" class="settings-menu__item">
+                      Choose from photos
+                    </button>
+                    <button type="button" class="settings-menu__item">
+                      Take photo
+                    </button>
+                  </div>
+                </div>
+                <div class="settings-photo">
+                  <img
+                    src="https://i.pinimg.com/564x/e7/0c/10/e70c1042b37b6851287a4388d42ee8c5.jpg"
+                    alt="Photo 2"
+                  />
+                  <button
+                    class="settings-photo__edit"
+                    type="button"
+                    aria-label="Edit photo"
+                  >
+                    <i class="fa-solid fa-pen"></i>
+                  </button>
+                  <div class="settings-menu">
+                    <button type="button" class="settings-menu__item">
+                      Choose from photos
+                    </button>
+                    <button type="button" class="settings-menu__item">
+                      Take photo
+                    </button>
+                  </div>
+                </div>
+                <div class="settings-photo">
+                  <img
+                    src="https://i.pinimg.com/564x/45/6d/88/456d88c3c617444dcd1af687dd02a0d7.jpg"
+                    alt="Photo 3"
+                  />
+                  <button
+                    class="settings-photo__edit"
+                    type="button"
+                    aria-label="Edit photo"
+                  >
+                    <i class="fa-solid fa-pen"></i>
+                  </button>
+                  <div class="settings-menu">
+                    <button type="button" class="settings-menu__item">
+                      Choose from photos
+                    </button>
+                    <button type="button" class="settings-menu__item">
+                      Take photo
+                    </button>
+                  </div>
+                </div>
+                <div class="settings-photo">
+                  <img
+                    src="https://i.pinimg.com/564x/bf/2c/da/bf2cdaeebb9ab8036f081519072a0177.jpg"
+                    alt="Photo 4"
+                  />
+                  <button
+                    class="settings-photo__edit"
+                    type="button"
+                    aria-label="Edit photo"
+                  >
+                    <i class="fa-solid fa-pen"></i>
+                  </button>
+                  <div class="settings-menu">
+                    <button type="button" class="settings-menu__item">
+                      Choose from photos
+                    </button>
+                    <button type="button" class="settings-menu__item">
+                      Take photo
+                    </button>
+                  </div>
+                </div>
+                <div class="settings-photo">
+                  <img
+                    src="https://i.pinimg.com/564x/d3/a2/51/d3a2511a15d7e7bc953d2e77c513c047.jpg"
+                    alt="Photo 5"
+                  />
+                  <button
+                    class="settings-photo__edit"
+                    type="button"
+                    aria-label="Edit photo"
+                  >
+                    <i class="fa-solid fa-pen"></i>
+                  </button>
+                  <div class="settings-menu">
+                    <button type="button" class="settings-menu__item">
+                      Choose from photos
+                    </button>
+                    <button type="button" class="settings-menu__item">
+                      Take photo
+                    </button>
+                  </div>
+                </div>
+                <div class="settings-photo">
+                  <img
+                    src="https://i.pinimg.com/564x/76/2b/6b/762b6bd914ff3914553911c5961f2df8.jpg"
+                    alt="Photo 6"
+                  />
+                  <button
+                    class="settings-photo__edit"
+                    type="button"
+                    aria-label="Edit photo"
+                  >
+                    <i class="fa-solid fa-pen"></i>
+                  </button>
+                  <div class="settings-menu">
+                    <button type="button" class="settings-menu__item">
+                      Choose from photos
+                    </button>
+                    <button type="button" class="settings-menu__item">
+                      Take photo
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Match modal -->
+      <div class="match-modal" id="matchModal" aria-hidden="true">
+        <div class="match-modal__backdrop" data-close-match></div>
+        <div class="match-modal__panel" role="dialog" aria-modal="true">
+          <h2 class="match-title">Hooray! It's a Match</h2>
+          <div class="match-avatars">
+            <div class="match-avatar match-avatar--you">
+              <img src="../images/dp.jpg" alt="Your photo" />
+            </div>
+            <div class="match-heart">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+            <div class="match-avatar match-avatar--them">
+              <img id="matchAvatarThem" src="" alt="Match photo" />
+            </div>
+          </div>
+          <button class="match-message" type="button" id="openMatchChat">
+            Message
+          </button>
+          <button
+            class="match-close"
+            type="button"
+            data-close-match
+            aria-label="Close"
+          >
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+        <div class="match-confetti" id="matchConfetti"></div>
+      </div>
+
+      <!-- Mini chat popup -->
+      <div class="mini-chat" id="miniChat" aria-hidden="true">
+        <div class="mini-chat__backdrop" data-close-mini-chat></div>
+        <div class="mini-chat__panel" role="dialog" aria-modal="true">
+          <header class="mini-chat__header">
+            <div class="mini-chat__title">Chat</div>
+            <button
+              class="mini-chat__close"
+              type="button"
+              data-close-mini-chat
+              aria-label="Close"
+            >
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+          </header>
+          <div class="mini-chat__body">
+            <div class="mini-chat__bubble">Hey! 👋</div>
+            <div class="mini-chat__bubble mini-chat__bubble--me">Hi there!</div>
+          </div>
+          <div class="mini-chat__input">
+            <input type="text" placeholder="Type a message..." />
+            <button type="button">Send</button>
+          </div>
+        </div>
+      </div>
     </div>
 
+    <!-- Additional sections -->
     <section id="fifth">
       <h1>Matches</h1>
     </section>
@@ -359,5 +761,10 @@
 
     <script src="https://hammerjs.github.io/dist/hammer.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/messages.js"></script>
+    <script src="js/profile-modal.js"></script>
+    <script src="js/card-meta.js"></script>
+    <script src="js/profile-settings-modal.js"></script>
+    <script src="js/settings-menu.js"></script>
   </body>
 </html>
