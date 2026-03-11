@@ -7,7 +7,7 @@ html {
 
 /* Background image */
 body {
-  background-image: url(../images/BG1.jpg);
+  background-image: url(https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/12445491/acastro_180822_1777_tinder_0002.jpg?quality=90&strip=all&crop=16.666666666667,0,66.666666666667,100);
 }
 
 /* Hero text */
@@ -18,10 +18,26 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-family: "Bungee", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 103px;
+  width: 90%;
+  max-width: 900px;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.hero-text h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 2px;
+  color: #ffe4e4;
+  margin-bottom: 30px;
 }
 
 /* Secondary hero text */
@@ -37,7 +53,7 @@ body {
 }
 
 /* Font import */
-@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&family=Playfair+Display:ital,wght@0,700;1,700&family=Poppins:wght@400;600&display=swap");
 
 /* CTA buttons */
 .button {
